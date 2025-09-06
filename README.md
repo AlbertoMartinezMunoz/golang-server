@@ -30,3 +30,9 @@ To check the server runs the correct handler for a request:
 ```console
 $ curl http://localhost:8080/catalogue/the-cure-one --include --header "Content-Type: application/json" --request "GET"
 ```
+
+## References
+
+* [Go REST Guide. The Standard Library](https://www.jetbrains.com/guide/go/tutorials/rest_api_series/stdlib/)
+* [Building a RESTful API with Go: A Step-by-Step Guide](https://medium.com/@briankworld/building-a-restful-api-with-go-a-step-by-step-guide-d17e69f004a7)
+* [Tutorial: Developing a RESTful API with Go and Gin](https://go.dev/doc/tutorial/web-service-gin)
