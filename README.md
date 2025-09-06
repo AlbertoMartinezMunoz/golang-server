@@ -31,6 +31,14 @@ To check the server runs the correct handler for a request:
 $ curl http://localhost:8080/catalogue/the-cure-one --include --header "Content-Type: application/json" --request "GET"
 ```
 
+## Add Packages
+
+To add new packages, `go get`can be used:
+
+```console
+$ go get -u github.com/gosimple/slug
+```
+
 ## References
 
 * [Go REST Guide. The Standard Library](https://www.jetbrains.com/guide/go/tutorials/rest_api_series/stdlib/)
